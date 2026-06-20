@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import mini_project.ems_backend.entity.Employee;
 import mini_project.ems_backend.exception.NotFoundException;
 import mini_project.ems_backend.service.EmpService;
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://employee-management-system-backend-1-osnv.onrender.com")
 @RestController
 @RequestMapping("/api/emp")
 
